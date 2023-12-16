@@ -1,0 +1,12 @@
+{
+    "type": "mssql",
+    "host": "appsrv-dev.mtwin.ru",
+    "port": 10433,
+    "username": "mtwinadmin",
+    "password": "_MtWin!Sql",
+    "database": "MtWinTicket",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": false,
+    "options": { "encrypt": false },
+    "logging": true
+}
